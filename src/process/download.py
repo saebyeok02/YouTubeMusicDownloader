@@ -51,7 +51,7 @@ def download(url, chater_list, shared_list):
             chater_list.append(queue_data)
         else:
             shared_list.append(queue_data)
-        print_(f"다운로드 완료 : {queue_data['title']}")
+        print_(f"다운로드 완료 : {queue_data['title']}.{queue_data['ext']}")
 
 
 def download_wrapper(queue, chater_list, shared_list):

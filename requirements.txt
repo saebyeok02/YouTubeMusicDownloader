@@ -1,4 +1,4 @@
-yt-dlp
+yt-dlp==2025.6.30
 pathvalidate==3.2.0
 pydub
 pillow
